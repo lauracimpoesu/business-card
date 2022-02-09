@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+* {
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  padding-top: 2px;
+  padding-left: 190px;
+  padding-right: 150px;
+  background-color: #22252d;
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 39.4px;
+}
+
+.job {
+  color: #f3bf9a;
+}
+
+.buttons__container {
+    display: flex;
+  align-items: center;
+}
+
+.email {
+  margin-right: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 7px;
+  border: none;
+  color: black;
+    display: flex;
+  align-items: center;
+}
+
+.email__icon,
+i {
+  color: red;
+}
+
+.linkedin {
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 7px;
+  border: none;
+  background-color: #5093e2;
+  color: white;
+    display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.about {
+  margin-top: 30px;
+}
+
+.svg {
+  margin-left: 20px;
+}
+
+.svg__container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
